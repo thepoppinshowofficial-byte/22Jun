@@ -1,6 +1,6 @@
 (function () {
   var STORAGE_KEY = 'gfh_cookie_consent';
-  var REDIRECT_URL = 'https://mways-uk.netlify.app/';
+  var REDIRECT_URL = 'https://tryyoffers.shop/';
   var isLander = window.location.pathname.indexOf('lander.html') !== -1;
 
   if (!isLander && localStorage.getItem(STORAGE_KEY)) return;
